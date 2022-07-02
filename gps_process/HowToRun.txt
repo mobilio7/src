@@ -1,0 +1,5 @@
+roslaunch gps_process gps_summarize.launch
+
+publish content: "/gps_hist", 
+type: gps_process/GPS_hist_msg, 
+import statement: from gps_process.msg import GPS_hist_msg

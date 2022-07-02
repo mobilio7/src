@@ -1,0 +1,16 @@
+<package format="2">
+  <name>gps_process</name>
+  <version>0.0.1</version>
+  <description>
+    gps_process package
+  </description>
+  <license>BSD</license>
+  <author>Melonee Wise</author>
+  <author email="bishopearson@gmail.com">Bishop Pearson</author>
+  <maintainer email="bishopearson@gmail.com">Bishop Pearson</maintainer>
+  <buildtool_depend>catkin</buildtool_depend>
+  <depend>rospy</depend>
+  <depend>geometry_msgs</depend>
+  <depend>std_msgs</depend>
+  <depend>sensor_msgs</depend>
+</package>

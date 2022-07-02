@@ -1,0 +1,4 @@
+<launch>
+  <!-- tmp -->
+  <node pkg="gps_process" type="PointStamped" name="PointStamped"  output="screen"/>
+</launch>

@@ -1,0 +1,4 @@
+<launch>
+  <!-- gps_process -->
+  <node pkg="gps_process" type="gps_latlong" name="gps_latlong"  output="screen"/>
+</launch>

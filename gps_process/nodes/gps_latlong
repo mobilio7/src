@@ -1,0 +1,47 @@
+#!/usr/bin/env python
+
+import rospy
+from geometry_msgs.msg import Twist, PoseStamped
+from sensor_msgs.msg import NavSatFix
+
+class GPSDataHandler:
+
+    def __init__(self, save_length=10, publish_rate=1):
+        self.save_length = save_length
+        self.gps_history_raw = [(0,0)] * save_length
+
+        # Subscriber
+        rospy.Subscriber("/ublox_gps/fix", NavSatFix, self.callback_raw)
+
+        # Publisher
+        #self.gps_hist_pub = rospy.Publisher('gps_hist', 
+
+        # timer
+        rospy.Timer(rospy.Duration(publish_rate), self.show_gps_hist) 
+
+    def callback_raw(self, msg):
+        self.gps_history_raw = [(msg.latitude, msg.longitude)] + self.gps_history_raw[:self.save_length]
+        #rospy.loginfo(self.gps_history_raw)
+
+    def get_history(self):
+        return [self.gps_history_raw[ii] for ii in range(self.save_length)]
+
+    def show_gps_hist(self, event):
+        history = self.get_history()
+        for frame_data in history:
+            print(frame_data)
+        print()
+
+    def main(self):
+        rospy.spin()
+        
+
+if __name__ == '__main__':
+
+    try:
+        rospy.init_node('gps_handler_node')
+        gps_handle = GPSDataHandler(save_length=10, publish_rate=1)
+        gps_handle.main()
+    except rospy.ROSInterruptException:
+        pass
+

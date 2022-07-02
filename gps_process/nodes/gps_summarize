@@ -1,0 +1,68 @@
+#!/usr/bin/env python
+
+import rospy
+from geometry_msgs.msg import Twist, PoseStamped
+from sensor_msgs.msg import NavSatFix
+from gps_process.msg import GPS_hist_msg
+import utm
+
+
+class GPSDataHandler:
+    """GPS Data Handler"""
+    def __init__(self, save_len=10, publish_rate=1):
+        """Initialize"""
+        self.save_len = save_len
+        self.gps_history_latlon, self.gps_history_xy = [(0,0)] * save_len, [(0,0)] * save_len
+
+        # Subscriber
+        rospy.Subscriber("/ublox_gps/fix", NavSatFix, self.callback)
+        #rospy.Subscriber("/utm", PoseStamped, self.callback_fix) # We will use python 'utm' library instead.
+
+        # Publisher
+        self.gps_hist_pub = rospy.Publisher('/gps_hist', GPS_hist_msg, queue_size=1)  # Want to publish GPS history in (lat-lon) and (x-y) coordinates
+
+        #rospy.Timer(rospy.Duration(publish_rate), self.show_gps_hist) 
+        rospy.Timer(rospy.Duration(publish_rate), self.publish_gps_history)
+
+    def publish_gps_history(self, event):
+        self.gps_hist_pub.publish(self.get_history())
+
+    def callback(self, msg):
+        """Callback to receive & process GPS data"""
+        lat, lon = msg.latitude, msg.longitude
+        self.gps_history_latlon = [(lat, lon)] + self.gps_history_latlon[:self.save_len]
+        #rospy.loginfo(self.gps_history_raw)
+        self.gps_history_xy = [utm.from_latlon(lat, lon)[:2]] + self.gps_history_xy[:self.save_len]
+
+    # No need to use this method (We use python 'utm' library instead)
+    #def callback_fix(self, msg):
+    #    pos_info = msg.pose.position
+    #    self.gps_history_fix = [(pos_info.x, pos_info.y)] + self.gps_history_fix[:self.save_len]
+    #    #rospy.loginfo(self.gps_history_fix)
+
+    def get_history(self):
+        """Return a fixed-length history of GPS coordinates"""
+        # Return (latitude, longitude, x, y) series
+        return [self.gps_history_latlon[ii]+self.gps_history_xy[ii] for ii in range(self.save_len)]
+
+    def show_gps_hist(self, event):
+        """Show GPS history"""
+        history = self.get_history()
+        for frame_data in history:
+            print(frame_data)
+        print()
+
+    def main(self):
+        """Spin"""
+        rospy.spin()
+        
+
+if __name__ == '__main__':
+
+    try:
+        rospy.init_node('gps_handler_node')
+        gps_handle = GPSDataHandler(save_length=10, publish_rate=1)
+        gps_handle.main()
+    except rospy.ROSInterruptException:
+        pass
+

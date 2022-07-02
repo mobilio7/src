@@ -1,0 +1,4 @@
+<launch>
+  <!-- gps_process -->
+  <node pkg="gps_process" type="gps_summarize" name="gps_summarize"  output="screen"/>
+</launch>
