@@ -1,0 +1,33 @@
+openc install
+
+http://wiki.ros.org/vision_opencv
+
+git clone https://github.com/ros-perception/vision_opencv.git
+
+===============================================
+korea
+
+
+/home/t/catkin_ws/src/ros_env/Server_robot_setting
+
+
+https://95mkr.tistory.com/entry/ROS6
+
+
+https://www.youtube.com/watch?v=QdVgKj-sqy8
+
+
+
+=======================================
+https://github.com/AbangLZU/LaneNetRos
+
+https://github.com/matang28/ros-lane-detection
+
+
+https://github.com/ros-drivers/video_stream_opencv
+
+
+
+https://github.com/ros-perception/opencv_apps
+
+https://github.com/OTL/cv_camera
