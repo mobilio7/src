@@ -1,0 +1,152 @@
+robot
+
+roslaunch omo_r1_bringup omo_r1_robot_G2.launch
+roslaunch omo_r1_slam omo_r1_slam.launch
+
+~/catkin_ws/src/omo_r1/omo_r1_navigation/maps
+rosrun map_server map_saver -f map
+
+
+roslaunch omo_r1_navigation omo_r1_navigation_G2.launch
+
+
+
+--------------------------------------------------------------
+
+server
+roscore
+roslaunch omo_r1_slam omo_r1_slam_rviz.launch
+
+roslaunch omo_r1_teleop omo_r1_teleop_key.launch
+
+~/catkin_ws/src/omo_r1/omo_r1_navigation/maps
+rosrun map_server map_saver -f map
+
+roslaunch omo_r1_navigation omo_r1_navigation_rviz.launch
+
+----------------------------------------------
+
+server
+roscore
+roslaunch omo_r1mini_navigation2 navigation2_rviz.launch
+
+
+Robot
+roslaunch omo_r1mini_navigation2 navigation2.launch
+--------------------------------------------------------------------------------------------
+server
+roslaunch omo_r1mini_navigation omo_r1mini_navigation_rviz.launch
+
+roslaunch omo_r1_navigation omo_r1_navigation_rviz.launch
+
+
+
+Robot
+roslaunch omo_r1mini_navigation omo_r1mini_navigation.launch
+
+
+roslaunch omo_r1_navigation omo_r1_navigation.launch
+=====================================================================
+
+
+
+Robot
+roslaunch omo_r1mini_bringup omo_r1mini_robot.launch
+roslaunch omo_r1mini_slam omo_r1mini_slam.launch
+
+
+
+server
+roscore
+
+roslaunch omo_r1mini_slam omo_r1mini_slam_rviz.launch 
+roslaunch omo_r1mini_teleop omo_r1mini_teleop_key.launch
+rosrun map_server map_saver -f map
+cp map.* ~/catkin_ws/src/omo_r1mini/omo_r1mini_navigation/maps/
+or
+cp map.* ~/catkin_ws/src/omo_r1mini/omo_r1mini_navigation2/maps/
+
+==========================================================
+
+(robot side)
+roslaunch omo_r1mini_navigation omo_r1mini_navigation.launch
+
+
+
+
+roslaunch omo_r1mini_cartographer omo_r1mini_cartographer_rviz.launch &/
+
+
+
+
+==============================
+
+
+r1mini@192
+
+ssh r1mini@192.168.0.96
+roslaunch omo_r1mini_bringup omo_r1mini_bringup.launch & /
+roslaunch omo_r1mini_slam omo_r1mini_slam.launch & /
+roslaunch jetson_camera jetson_camera.launch  
+
+
+
+roslaunch omo_r1mini_navigation omo_r1mini_navigation.launch & /
+roslaunch omo_r1mini_bringup omo_r1mini_lidar.launch & /
+
+
+
+roslaunch omo_r1mini_navigation omo_r1mini_navigation.launch  ????(map_file:=$HOME/map.yaml)
+roslaunch omo_r1mini_navigation omo_r1mini_navigation.launch  map_file:=$HOME/mmap.yaml
+
+
+
+
+
+=============================
+
+
+& /
+
+rqt_image_view &
+
+
+
+t@t-desktop:~/catkin_ws/src/omo_r1mini/omo_r1mini_navigation/maps$rosrun map_server map_server map.yaml
+
+roslaunch 
+rqt_image_view &
+roslaunch omo_r1mini_teleop omo_r1mini_teleop_key.launch
+
+
+------------------
+
+roslaunch omo_r1mini_navigation omo_r1mini_navigation_rviz.launch       ??????(map_file:=$HOME/catkin_ws/src/omo_r1mini/omo_r1mini_navigation/maps/map.yaml
+
+
+
+
+
+
+
+
+$ sudo apt-get install ros-melodic-catkin python-catkin-tools 
+catkin create pkg abc --catkin-deps std_msgs rospy
+
+
+
+
+omo_packet_handler.py
+'
+omo_packet_handler.py
+
+ def set_wheel_velocity(self, l_vel, r_vel):
+      self.write_port('$cVW,{:.0f},{:.0f}'.format(l_vel, r_vel))
+
+   def set_thrust_steer(self, thrust, steer):
+      self.write_port('$cSVO,{:.0f},{:.0f}'.format(thrust, steer))
+	  
+	  
+	  rosrun tf tf_echo /map /base_link
+	  
+	  rostopic pub -1 /turtle1/cmd_vel geometry_msgs/Twist -- '[0.0, 0.0, 0.0]' '[0.0, 0.0, 1.8]'

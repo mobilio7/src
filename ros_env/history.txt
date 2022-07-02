@@ -1,0 +1,1000 @@
+ 1071  rostopic list
+ 1072  sshm
+ 1073  roslaunch omo_r1mini_bringup omo_r1_imu.launch
+ 1074  cm
+ 1075  roslaunch omo_r1mini_bringup omo_r1_imu.launch
+ 1076  roslaunch omo_r1_teleop omo_r1_teleop_key.launch 
+ 1077  roscore
+ 1078  nb
+ 1079  eb
+ 1080  roscore
+ 1081  sshr
+ 1082  sshr
+ 1083  anydesk
+ 1084  roscore
+ 1085  sshm
+ 1086  sudo apt install ros-melodic-cartographer-ros
+ 1087  roscore
+ 1088  gazebo
+ 1089  rviz
+ 1090  sshm
+ 1091  roscore
+ 1092  roslaunch omo_r1mini_cartographer omo_r1mini_cartographer_rviz.launch
+ 1093  roslaunch omo_r1mini_navigation omo_r1mini_navigation_rviz.launc
+ 1094  rosclean
+ 1095  roslaunch omo_r1mini_navigation omo_r1mini_navigation_rviz.launc
+ 1096  roslaunch omo_r1mini_navigation omo_r1mini_navigation_rviz.launch
+ 1097  roslaunch omo_r1mini_teleop omo_r1mini_teleop_key.launch
+ 1098  cd {$HOME}
+ 1099  hp,e
+ 1100  cd home
+ 1101  sshm
+ 1102  sshm
+ 1103  cd to map folder
+ 1104  cs
+ 1105  cd ..
+ 1106  ls
+ 1107  cd map
+ 1108  rosrun map_server map_saver -f adyslam
+ 1109  roscore
+ 1110  roslaunch omo_r1mini_cartographer omo_r1mini_cartographer_rviz.launch
+ 1111  roslaunch omo_r1mini_teleop omo_r1mini_teleop_key.launch
+ 1112  roscore
+ 1113  roslaunch omo_r1mini_navigation omo_r1mini_navigation_rviz.launch
+ 1114  sshm
+ 1115  sshm
+ 1116  roscore
+ 1117  roslaunch omo_r1mini_navigation omo_r1mini_navigation_rviz.launch
+ 1118  roslaunch omo_r1mini_navigation omo_r1mini_navigation.launch
+ 1119  rviz
+ 1120  roscore
+ 1121  rviz
+ 1122  roscore
+ 1123  sshm
+ 1124  roslaunch omo_r1mini_navigation omo_r1mini_navigation_rviz.launch
+ 1125  sshm
+ 1126  roscore
+ 1127  roslaunch omo_r1mini_navigation omo_r1mini_navigation_rviz.launch
+ 1128  sshm1
+ 1129  sshm
+ 1130  roscore
+ 1131  roslaunch omo_r1mini_navigation omo_r1mini_navigation_rviz.launch
+ 1132  sudo systemctl restart t
+ 1133  sshm
+ 1134  sshm
+ 1135  roscore
+ 1136  roslaunch omo_r1mini_navigation omo_r1mini_navigation_rviz.launch
+ 1137  roscore
+ 1138  sshm
+ 1139  rosrun map_server map_server map_file.yaml
+ 1140  [출처] ROS Navigation Map Creation|작성자 Tomboy
+ 1141  rosrun map_server map_server map.yaml
+ 1142  rosrun map_server map_server adyslam.yaml
+ 1143  roscore
+ 1144  cs
+ 1145  cd omo_r1mini/omo_r1mini_navigation/maps
+ 1146  rosrun map_server map_saver -f adyslam2
+ 1147  ./catkin_ws/src/omo_r1mini/omo_r1mini_cartographer/scripts/save_pbstream.sh
+ 1148  roslaunch omo_r1mini_navigation omo_r1mini_navigation_rviz.launch
+ 1149  roslaunch omo_r1mini_cartographer omo_r1mini_cartographer_rviz.launch
+ 1150  roslaunch omo_r1mini_navigation omo_r1mini_navigation_rviz.launch
+ 1151  roslaunch omo_r1mini_teleop omo_r1mini_teleop_key.launch
+ 1152  sshm
+ 1153  roscore
+ 1154  roslaunch omo_r1mini_navigation omo_r1mini_navigation_rviz.launch
+ 1155  roscore
+ 1156  rosrun map_server map_saver -f map.yaml
+ 1157  rosrun map_server map_saver -f map
+ 1158  roscore
+ 1159  sshm
+ 1160  roscore
+ 1161  roslaunch omo_r1mini_cartographer omo_r1mini_cartographer_rviz.launch
+ 1162  roslaunch omo_r1mini_teleop omo_r1mini_teleop_key.launc
+ 1163  roslaunch omo_r1mini_teleop omo_r1mini_teleop_key.launch
+ 1164  roslaunch omo_r1mini_navigation omo_r1mini_navigation_rviz.launch
+ 1165  cs
+ 1166  cd omo_r1mini/omo_r1mini_navigation/maps
+ 1167  rosrun map_server map_saver -f tutorial
+ 1168  roscore
+ 1169  roslaunch omo_r1mini_navigation omo_r1mini_navigation_rviz.launch
+ 1170  rqt_graph
+ 1171  sshm
+ 1172  sshm
+ 1173  sshm
+ 1174  roscore
+ 1175  sshm
+ 1176  roslaunch omo_r1mini_slam omo_r1mini_slam_rviz.launch
+ 1177  roslaunch omo_r1mini_teleop omo_r1mini_teleop_key.launch
+ 1178  sshm
+ 1179  sshm
+ 1180  sshm
+ 1181  sshm
+ 1182  roscore
+ 1183  roslaunch omo_r1mini_navigation omo_r1mini_navigation_rviz.launch
+ 1184  roslaunch omo_r1mini_teleop omo_r1mini_teleop_key.launch
+ 1185  roslaunch omo_r1mini_slam omo_r1mini_slam_rviz.launch
+ 1186  roscore
+ 1187  sshm
+ 1188  sshm
+ 1189  roscore
+ 1190  roslaunch omo_r1mini_slam omo_r1mini_slam_rviz.launch
+ 1191  roslaunch omo_r1mini_teleop omo_r1mini_teleop_key.launch
+ 1192  roscore
+ 1193  rosrun map_server map_server map.yaml
+ 1194  roslaunch omo_r1mini_slam omo_r1mini_slam_rviz.launch
+ 1195  roscore
+ 1196  roslaunch omo_r1mini_slam omo_r1mini_slam_rviz.launch
+ 1197  rosrun map_server map_server map.yaml
+ 1198  roslaunch omo_r1mini_slam omo_r1mini_slam_rviz.launch
+ 1199  cp map.*home/
+ 1200  sshm
+ 1201  sshm
+ 1202  roscore
+ 1203  roslaunch omo_r1mini_slam omo_r1mini_slam_rviz.launch
+ 1204  roslaunch omo_r1mini_navigation omo_r1mini_navigation_rviz.launch
+ 1205  sshm
+ 1206  sshm
+ 1207  roscore
+ 1208  roslaunch omo_r1mini_navigation omo_r1mini_navigation_rviz.launch
+ 1209  roslaunch omo_r1mini_navigation omo_r1mini_navigation_rviz.launch
+ 1210  sshm
+ 1211  roscore
+ 1212  sshm
+ 1213  roslaunch omo_r1mini_navigation omo_r1mini_navigation_rviz.launch
+ 1214  roslaunch omo_r1mini_slam omo_r1mini_slam_rviz.launch
+ 1215  sshm
+ 1216  sshm
+ 1217  ls
+ 1218  sshm
+ 1219  roscore
+ 1220  sshm 
+ 1221  sshm
+ 1222  gogo
+ 1223  sshm
+ 1224  roscore
+ 1225  roslaunch omo_r1mini_navigation omo_r1mini_navigation_rviz.launch
+ 1226  sshm
+ 1227  sshm
+ 1228  roscore
+ 1229  roslaunch omo_r1mini_navigation omo_r1mini_navigation_rviz.launch
+ 1230  sshm
+ 1231  roscore
+ 1232  roslaunch omo_r1mini_navigation omo_r1mini_navigation_rviz.launch
+ 1233  sshm
+ 1234  roscore
+ 1235  sshm1
+ 1236  sshm
+ 1237  roscore
+ 1238  roslaunch omo_r1mini_navigation omo_r1mini_navigation_rviz.launch
+ 1239  sshm
+ 1240  sshm
+ 1241  git clone nav2_bt_navigator/behavior_trees/navigate_through_poses_w_replanning_and_recovery.xml
+ 1242  sudo apt-get install git-core
+ 1243  sudo apt-get install update
+ 1244  git --version
+ 1245  sudo git config --global user.name "ahndy"
+ 1246  sudo git config --global user.email "ahndy@mobilio.io"
+ 1247  sudo git config --global color.ui "auto"
+ 1248  mkdir mygit
+ 1249  cd mygit
+ 1250  ls
+ 1251  cs
+ 1252  cd
+ 1253  sudo git init
+ 1254  git status
+ 1255  cd mygit
+ 1256  git init
+ 1257  git clone https://github.com/Ahndy123/navigation2.git
+ 1258  git clone 
+ 1259  git clone https://github.com/PinkWink/omo_r1mini.git
+ 1260  roscore
+ 1261  roslaunch omo_r1mini_navigation omo_r1mini_navigation_rviz.launch
+ 1262  sshm
+ 1263  sshm
+ 1264  rostopic list
+ 1265  rostopic echp /amcl_pose
+ 1266  rostopic echo /amcl_pose
+ 1267  cs
+ 1268  omo_r1mini
+ 1269  cs
+ 1270  cd
+ 1271  cd mygit
+ 1272  ls
+ 1273  cd omo_r1mini/
+ 1274  ls
+ 1275  cd omo_r1mini_simple_position_controller/
+ 1276  ls
+ 1277  suml .
+ 1278  subl .
+ 1279  vscode .
+ 1280  cs
+ 1281  cd
+ 1282  ssh r1mini@192.168.0.100
+ 1283  alias
+ 1284  sudo vi ~/.bashrc
+ 1285  sshh
+ 1286  alias
+ 1287  sudo vi ~/.bashrc
+ 1288  alias
+ 1289  sshh
+ 1290  sudo vi ~/.bashrc
+ 1291  sshh
+ 1292  sshm
+ 1293  gedit ~/.bashrc
+ 1294  sshh
+ 1295  roscore
+ 1296  roslaunch omo_r1mini_omo_r1mini_navigation_rviz.launch
+ 1297  roslaunch omo_r1mini_navigation omo_r1mini_navigation_rviz.launch
+ 1298  rosrun hello_world move_turtle.py
+ 1299  roscore
+ 1300  sshh
+ 1301  sshh
+ 1302  roscore
+ 1303  rosclean
+ 1304  roscore
+ 1305  ssh r1mini@192.168.0.12
+ 1306  sshm
+ 1307  ssh r1mini@192.168.0.12
+ 1308  alias
+ 1309  gedit ~/.bashrc
+ 1310  roscore
+ 1311  nb
+ 1312  eb
+ 1313  sb
+ 1314  roscore
+ 1315  rosrun hello_world move_turtle.py
+ 1316  sshm
+ 1317  sshm
+ 1318  sudo apt-get install ros-melodic-follow-waypoints
+ 1319  sudo apt update
+ 1320  ssudo apt upgrade
+ 1321  sudp apt upgrade
+ 1322  sudo apt upgrade
+ 1323  sudo apt-get install ros-melodic-follow-waypoints
+ 1324  cd mygit
+ 1325  git clone https://github.com/yujinrobot/yujin_ocs.git
+ 1326  ls
+ 1327  subl .
+ 1328  git clone https://github.com/danielsnider/follow_waypoints.git
+ 1329  roscore
+ 1330  sshm
+ 1331  roscore
+ 1332  sb
+ 1333  nb
+ 1334  eb
+ 1335  ls
+ 1336  sshm
+ 1337  roslaunch omo_r1mini_bringup omo_r1mini_robot.launch
+ 1338  ssh r1mini@192.168.0.96
+ 1339  roscore
+ 1340  riz
+ 1341  rviz
+ 1342  rostopic pub /path_ready std_msgs/Empty -1
+ 1343  sshm
+ 1344  sshm
+ 1345  sshm
+ 1346  roscore
+ 1347  roscore
+ 1348  sshm
+ 1349  roscore
+ 1350  1
+ 1351  sshm
+ 1352  rosrun hello_world move_turtle.py
+ 1353  rosrun hello_world move_turtle1.py
+ 1354  cm
+ 1355  rosrun omo_r1mini_navigation omo_waypoints.py
+ 1356  rosrun hello_world move_turtle1.py
+ 1357  cd
+ 1358  roscore
+ 1359  sshm
+ 1360  sshm
+ 1361  sshm
+ 1362  roscore
+ 1363  roslaunch omo_r1mini_navigation omo_r1mini_navigation_rviz.launch 
+ 1364  sshm
+ 1365  sshm
+ 1366  cs
+ 1367  cd hello_world
+ 1368  ls
+ 1369  src
+ 1370  ls
+ 1371  cd src
+ 1372  ls
+ 1373  cd ..
+ 1374  cd scripts
+ 1375  ls
+ 1376  subl .
+ 1377  roscore
+ 1378  roslaunch omo_r1mini_navigation omo_r1mini_navigation_rviz.launch 
+ 1379  sudo apt-get update
+ 1380  sudo apt-get install snapd
+ 1381  wget https://github.com/shiftkey/desktop/releases/download/release-2.0.4-linux1/GitHubDesktop-linux-2.0.4-linux1.snap
+ 1382  sudo snap install GitHubDesktop-linux-2.0.4-linux1.snap --classic --dangerous
+ 1383  ls
+ 1384  sc
+ 1385  ls
+ 1386  cs
+ 1387  ls
+ 1388  cd omo_r1mini/
+ 1389  ls
+ 1390  git init
+ 1391  git status
+ 1392  git add .
+ 1393  ls
+ 1394  git commit -m "r1mini first commit"
+ 1395  git remote add origin https://github.com/mobilio7/r1mini.git
+ 1396  git branch -M main
+ 1397  git remote add origin https://github.com/mobilio7/r1mini.git
+ 1398  git push -u origin main
+ 1399  git remote add origin https://github.com/mobilio7/r1mini.git
+ 1400  git push -u origin main
+ 1401  git remote add origin https://github.com/mobilio7/r1mini.git
+ 1402  git push -u origin main
+ 1403  git config --global user.name "js"
+ 1404  git config --global user.email "js@mobilio.io"
+ 1405  username for https://github.com:
+ 1406  sudo apt-get install git-core
+ 1407  sudo apt-get install update
+ 1408  git --version
+ 1409  sudo git config --global color.ui "auto"
+ 1410  sudo git init
+ 1411  git status
+ 1412  sudo git remote add origin https://github.com/mobilio7
+ 1413  sudo git remote add origin https://github.com/mobilio7/a
+ 1414  sudo git remote add origin https://github.com/mobilio7/abc
+ 1415  sudo git fetch origin
+ 1416  sudo git push origin +master
+ 1417  ls
+ 1418  cd ..
+ 1419  ls
+ 1420  git init
+ 1421  git status
+ 1422  sudo git remote add origin https://github.com/mobilio7
+ 1423  sudo git fetch origin
+ 1424  sudo git remote add origin https://github.com/mobilio7/robot
+ 1425  sudo git push origin +master
+ 1426  ls
+ 1427  git status
+ 1428  git add .
+ 1429  git commit -m "mobilio7 first"
+ 1430  git remote add origin https://github.com/mobilio7/robot
+ 1431  git remote add origin https://github.com/mobilio7/abc
+ 1432  git remote add origin https://github.com/mobilio7/
+ 1433  git remote add origin https://github.com/mobilio7/a
+ 1434  git remote add origin https://github.com/mobilio7/agit ls-remote
+ 1435  git ls-remote
+ 1436  git remove -v
+ 1437  git remove-v
+ 1438  git status
+ 1439  git remote rm origin
+ 1440  git status
+ 1441  git remote ad origin https://github.com/mobilio7/src.git
+ 1442  git remote add origin https://github.com/mobilio7/src.git
+ 1443  git status
+ 1444  git push -u origin main
+ 1445  git status
+ 1446  git add .
+ 1447  git status
+ 1448  git commit -m "mobilio7777"
+ 1449  git push origin master
+ 1450  ls
+ 1451  apt-get install git
+ 1452  sudo apt-get install git
+ 1453  sudo add-apt-repository ppa:git-core/ppa
+ 1454  ls
+ 1455  sc
+ 1456  cs
+ 1457  ls
+ 1458  cd omo_r1
+ 1459  ls
+ 1460  cd ..
+ 1461  cd omo_r1mini/
+ 1462  ls
+ 1463  echo "# r1mini" >> README.md
+ 1464  git init
+ 1465  git add README.md
+ 1466  git commit -m "first commit"
+ 1467  ls
+ 1468  git branch -M main
+ 1469  git remote add origin https://github.com/mobilio7/r1mini.git
+ 1470  git push -u origin main
+ 1471  ls
+ 1472  ls -al
+ 1473  git remote add origin https://github.com/mobilio7/r1mini.git
+ 1474  git push -u origin main
+ 1475  sshh
+ 1476  alias
+ 1477  sshm
+ 1478  alias
+ 1479  sshh
+ 1480  sshr
+ 1481  alias
+ 1482  sshm
+ 1483  roscore
+ 1484  rosrun hello_world move_turtle.py
+ 1485  rosrun hello_world move_turtle1.py
+ 1486  cd
+ 1487  roslaunch omo_r1mini_navigation omo_r1mini_navigation_rviz.launch 
+ 1488  rosrun hello_world move_turtle1.py
+ 1489  sshm
+ 1490  sshm
+ 1491  roscore
+ 1492  sshm
+ 1493  rosrun hello_world move_turtle1.py
+ 1494  roscore
+ 1495  sshm
+ 1496  roscore
+ 1497  sshm
+ 1498  sshm
+ 1499  rosrun hello_world move_turtle1.py
+ 1500  roscore
+ 1501  rosrun hello_world move_turtle1.py
+ 1502  sshm
+ 1503  roscore
+ 1504  roslaunch omo_r1mini_bringup omo_r1mini_lidar_hlds.launch
+ 1505  sshm
+ 1506  rostopic list
+ 1507  rviz
+ 1508  ls
+ 1509  ls -al
+ 1510  cd ..
+ 1511  ls
+ 1512  ls -al
+ 1513  ls .vscode
+ 1514  ls
+ 1515  ls -al
+ 1516  cd ..
+ 1517  ls
+ 1518  ls -al 
+ 1519  ls -altr 
+ 1520  ls -al |grep xrdp
+ 1521  sudo chmod +x xrdp-installer-1.4.2.sh
+ 1522  cd
+ 1523  cs
+ 1524  ls
+ 1525  cd omo_r1mini
+ 1526  ls
+ 1527  code
+ 1528  code .
+ 1529  cd ..
+ 1530  ls
+ 1531  cd hello_world/
+ 1532  ls
+ 1533  cd src
+ 1534  ls
+ 1535  cd ..
+ 1536  code ..
+ 1537  subl .
+ 1538  ls
+ 1539  cd ..
+ 1540  ls
+ 1541  cd hello_world/
+ 1542  ls
+ 1543  cd ..
+ 1544  ls
+ 1545  cd omo_r1mini/
+ 1546  ls
+ 1547  ls -al
+ 1548  cd ..
+ 1549  ls
+ 1550  ls -al
+ 1551  git push catkin_ws
+ 1552  git branch
+ 1553  git add hello_world
+ 1554  git commit -m "hello_world"
+ 1555  git remote add origin
+ 1556  ls
+ 1557  git add turtlebot3exit
+ 1558  git add turtlebot3
+ 1559  git commit -m "aa"
+ 1560  git status
+ 1561  git restore turtlebot3
+ 1562  git statis
+ 1563  git status
+ 1564  ls
+ 1565  cd omo_r1
+ 1566  ls
+ 1567  git init
+ 1568  git add README.md
+ 1569  git commit -m "first commit"
+ 1570  git branch -M main
+ 1571  git remote add origin https://github.com/mobilio7/omo_r1.git
+ 1572  git remote remove 
+ 1573  git init
+ 1574  git add README.md
+ 1575  git commit -m "first commit"
+ 1576  git branch -M main
+ 1577  git remote add origin https://github.com/mobilio7/omo_r1.git
+ 1578  git push -u origin main
+ 1579  git remote remove origin
+ 1580  git remote add origin https://github.com/mobilio7/omo_r1.git
+ 1581  git push -u origin main
+ 1582  cd ..
+ 1583  cd geographiclib
+ 1584  git init
+ 1585  git commit -m "first commit"
+ 1586  git branch -M main
+ 1587  git remote add origin https://github.com/mobilio7/geographiclib.git
+ 1588  git remote remove origin
+ 1589  git remote add origin https://github.com/mobilio7/geographiclib.git
+ 1590  git push -u origin main
+ 1591  cd ..
+ 1592  cd gps_process
+ 1593  git init
+ 1594  git commit -m "first commit"
+ 1595  git branch -M main
+ 1596  git remote remove origin
+ 1597  git remote add origin https://github.com/mobilio7/gps_process.git
+ 1598  git push -u origin main
+ 1599  git commit -m "first commit"
+ 1600  git branch -M main
+ 1601  git remote add origin https://github.com/mobilio7/gps_process.git
+ 1602  git remote remove origin
+ 1603  git remote add origin https://github.com/mobilio7/gps_process.git
+ 1604  git push -u origin main
+ 1605  git remote remove origin
+ 1606  git init
+ 1607  git commit -m "first commit"
+ 1608  git branch -M main
+ 1609  git remote add origin https://github.com/mobilio7/gps_process.git
+ 1610  git push -u origin main
+ 1611  cd ..
+ 1612  cd hello_world
+ 1613  git init
+ 1614  git commit -m "first commit"
+ 1615  git branch -M main
+ 1616  git remote remove origin
+ 1617  git remote add origin https://github.com/mobilio7/hello_world.git
+ 1618  git push -u origin main
+ 1619  git branch -M master
+ 1620  git remote add origin https://github.com/mobilio7/hello_world.git
+ 1621  git push -u origin main
+ 1622  git remote remove origin
+ 1623  git init
+ 1624  git commit -m "first commit"
+ 1625  git branch -M master
+ 1626  git remote add origin https://github.com/mobilio7/hello_world.git
+ 1627  git push -u origin main
+ 1628  git init
+ 1629  git commit -m "first commit"
+ 1630  git branch -M main
+ 1631  git remote add origin https://github.com/mobilio7/hello_world.git
+ 1632  git remote remove origin
+ 1633  git remote add origin https://github.com/mobilio7/hello_world.git
+ 1634  git push -u origin main
+ 1635  ls
+ 1636  ls -al
+ 1637  cd .git
+ 1638  ls
+ 1639  git init
+ 1640  ls
+ 1641  cd ..
+ 1642  git init
+ 1643  git add .
+ 1644  git commit -m "this is hellow world"
+ 1645  git push -u origin main
+ 1646  cd ..
+ 1647  cd gps_process
+ 1648  git init
+ 1649  git add .
+ 1650  git commit -m "first commit"
+ 1651  git branch -M main
+ 1652  git remote add origin https://github.com/mobilio7/hello_world.git
+ 1653  git remote remove origin
+ 1654  git remote add origin https://github.com/mobilio7/hello_world.git
+ 1655  git push -u origin main
+ 1656  git remote remove origin
+ 1657  git init
+ 1658  git add .
+ 1659  git commit -m "first commit"
+ 1660  git branch -M main
+ 1661  git remote add origin https://github.com/mobilio7/gps_process.git
+ 1662  git push -u origin main
+ 1663  cd ..
+ 1664  cd maps
+ 1665  git remote remove origin
+ 1666  git init
+ 1667  git add .
+ 1668  git commit -m "first commit"
+ 1669  git branch -M main
+ 1670  git remote add origin https://github.com/mobilio7/maps.git
+ 1671  git push -u origin main
+ 1672  cd ..
+ 1673  cd ntrip_ros
+ 1674  git remote remove origin
+ 1675  git init
+ 1676  git add .
+ 1677  git commit -m "first commit"
+ 1678  git branch -M main
+ 1679  git remote add origin https://github.com/mobilio7/ntrip_ros.git
+ 1680  git push -u origin main
+ 1681  cd ..
+ 1682  cd omo_r1mini
+ 1683  git remote remove origin
+ 1684  git init
+ 1685  git add .
+ 1686  git commit -m "first commit"
+ 1687  git branch -M main
+ 1688  git remote add origin https://github.com/mobilio7/omo_r1mini.git
+ 1689  git push -u origin main
+ 1690  cd ..
+ 1691  cd ros_snippets
+ 1692  git remote remove origin
+ 1693  git init
+ 1694  cd ..
+ 1695  cd ROS-UTM-LLA
+ 1696  git remote remove origin
+ 1697  git init
+ 1698  git add .
+ 1699  git commit -m "first commit"
+ 1700  git branch -M main
+ 1701  git remote add origin https://github.com/mobilio7/ROS-UTM-LLA.git
+ 1702  git push -u origin main
+ 1703  cd ..
+ 1704  cd rqt_multiplot_plugin
+ 1705  git remote remove origin
+ 1706  git init
+ 1707  git add .
+ 1708  git commit -m "first commit"
+ 1709  git branch -M main
+ 1710  git remote add origin https://github.com/mobilio7/rqt_multiplot_plugin.git
+ 1711  git push -u origin main
+ 1712  cd ..
+ 1713  cd rtcm_msgs
+ 1714  git remote remove origin
+ 1715  git init
+ 1716  git add .
+ 1717  git commit -m "first commit"
+ 1718  git branch -M main
+ 1719  git remote add origin https://github.com/mobilio7/rtcm_msgs.git
+ 1720  git push -u origin main
+ 1721  cd ..
+ 1722  cd ublox_f9p
+ 1723  git remote remove origin
+ 1724  git init
+ 1725  git add .
+ 1726  git commit -m "first commit"
+ 1727  git branch -M main
+ 1728  git remote add origin https://github.com/mobilio7/ublox_f9p.git
+ 1729  git push -u origin main
+ 1730  cm
+ 1731  cd src
+ 1732  ls
+ 1733  cd omo_r1mini
+ 1734  git remote remove origin
+ 1735  git init
+ 1736  git add .
+ 1737  git commit -m "second commit"
+ 1738  ls
+ 1739  LS
+ 1740  ls
+ 1741  touch a.txt
+ 1742  cd ..
+ 1743  cd omo_r1mini
+ 1744  git commit -m "Third commit"
+ 1745  git init
+ 1746  git add .
+ 1747  git branch -M main
+ 1748  git remote add origin https://github.com/mobilio7/omo_r1mini.git
+ 1749  git push -u origin main
+ 1750  roscore
+ 1751  roslaunch omo_r1mini_ar_marker omo_r1mini_ar_track_model.launch 
+ 1752  roslaunch omo_r1mini_teleop omo_r1mini_teleop_key.launch 
+ 1753  sshm1
+ 1754  sshm
+ 1755  rqt_graph
+ 1756  sshm
+ 1757  cm
+ 1758  cd
+ 1759  cd mygit
+ 1760  ls
+ 1761  cd
+ 1762  cs
+ 1763  cd omo_r1mini/omo_r1mini_simple_position_controller/
+ 1764  cd
+ 1765  cd omo_r1mini/omo_r1mini_simple_position_controller/
+ 1766  cd omo_r1mini/omo_r1mini_simple_position_controller
+ 1767  cs
+ 1768  cd omo_r1mini/omo_r1mini_simple_position_controller
+ 1769  ls
+ 1770  subl .
+ 1771  vscode .
+ 1772  vs .
+ 1773  code .
+ 1774  cd
+ 1775  gedit alias
+ 1776  gedit ~/.bashrc
+ 1777  cs
+ 1778  ls
+ 1779  cd hello_world
+ 1780  subl .
+ 1781  cd..
+ 1782  cd ..
+ 1783  cd omo_r1mini/omo_r1mini_na
+ 1784  cd omo_r1mini/omo_r1mini_navigation
+ 1785  ls
+ 1786  cd ..
+ 1787  subl .
+ 1788  cd ..
+ 1789  git clone https://github.com/ros-drivers/video_stream_opencv
+ 1790  ls
+ 1791  roscore
+ 1792  rviz
+ 1793  sudo apt install ros-melodic-uvc-camera
+ 1794  rosrun uvc_camera uvc_camera_node
+ 1795  cs
+ 1796  roslaunch video_stream_opencv camera.launch
+ 1797  cd video_stream_opencv
+ 1798  chmod +x video_stream_ovencv
+ 1799  ls
+ 1800  cd src
+ 1801  ls
+ 1802  chmod +x video_stream_ovencv
+ 1803  ls
+ 1804  chmod +x video_stream_ovencv
+ 1805  sudo chmod +x video_stream_ovencv
+ 1806  roslaunch video_stream_opencv camera.launch
+ 1807  roslaunch video_stream_opencv camera.launch
+ 1808  git clone https://github.com/ros-drivers/usb_cam.git
+ 1809  ls
+ 1810  roslaunch usb_cam usb_cam-test.launch 
+ 1811  ls
+ 1812  cs
+ 1813  cd usb_cam/
+ 1814  ls
+ 1815  cd nodes
+ 1816  ls
+ 1817  cd ..
+ 1818  src
+ 1819  cd src
+ 1820  ls
+ 1821  cd ..
+ 1822  cd nodes
+ 1823  ls
+ 1824  chmod +x usb_cam_node.cpp 
+ 1825  ls
+ 1826  cs
+ 1827  cm
+ 1828  roslaunch usb_cam usb_cam-test.launch 
+ 1829  roslaunch video_stream_opencv webcam.launch 
+ 1830  roslaunch video_stream_opencv mjpg_stream.launch 
+ 1831  roslaunch video_stream_opencv rtsp_stream.launch 
+ 1832  roslaunch video_stream_opencv test_camera_info.launch 
+ 1833  roslaunch omo_r1mini_ar_marker omo_r1mini_ar_track.launch 
+ 1834  roslaunch omo_r1mini_ar_marker omo_r1mini_ar_track_model.launch 
+ 1835  cs
+ 1836  cm
+ 1837  roscore
+ 1838  sshm
+ 1839  rosrun uvc_camera uvc_camera_node
+ 1840  rqt_graph 
+ 1841  cs
+ 1842  ls
+ 1843  cd ublox_f9p/
+ 1844  ls
+ 1845  cd ..
+ 1846  cd usb_cam/
+ 1847  ls
+ 1848  cd launch
+ 1849  ls
+ 1850  cd ..
+ 1851  ls
+ 1852  roslaunch usb_cam usb_cam-test.launch 
+ 1853  rosrun usb_cam usb_cam_node
+ 1854  roslaunch usb_cam usb_cam-test.launch 
+ 1855  cd ..
+ 1856  cd hello_world/
+ 1857  ls
+ 1858  cd scripts/
+ 1859  ls
+ 1860  rosrun hello_world image.py 
+ 1861  sudo apt install ros-melodic-usb-cam
+ 1862  sudo apt upgrade
+ 1863  roscore
+ 1864  rosclean -h
+ 1865  rosclean 
+ 1866  rosrun usb_cam usb_cam_node
+ 1867  roscore
+ 1868  [A
+ 1869  roscore
+ 1870  cm
+ 1871  roscore
+ 1872  ls
+ 1873  cd ..
+ 1874  roscore
+ 1875  roslaunch omo_r1mini_navigation omo_r1mini_navigation_rviz.launc
+ 1876  roslaunch omo_r1mini_navigation omo_r1mini_navigation_rviz.launch
+ 1877  rviz
+ 1878  rqt
+ 1879  rqt_graph 
+ 1880  rosrun usb_cam usb_cam_node
+ 1881  roslaunch usb_cam usb_cam-test.launch 
+ 1882  rqt_graph
+ 1883  rqt
+ 1884  rviz
+ 1885  rqt_graph
+ 1886  rosrun usb_cam usb_cam_node
+ 1887  cd /dev
+ 1888  ls
+ 1889  ls -altr
+ 1890  ls -altr |grep Vid*
+ 1891  ls -altr |grep vid*
+ 1892  ls -altr
+ 1893  sshm
+ 1894  sshm
+ 1895  sshm
+ 1896  rosrun usb_cam usb_cam_node
+ 1897  cs
+ 1898  ls
+ 1899  cd usb_cam/
+ 1900  ls
+ 1901  rosrun usb_cam usb_cam_node
+ 1902  ls
+ 1903  cd launch/
+ 1904  ls
+ 1905  sudo nano usb_cam-test.launch 
+ 1906  rosrun usb_cam usb_cam_node
+ 1907  ls
+ 1908  cd ..
+ 1909  ls
+ 1910  cd nodes
+ 1911  ;roslaunch 
+ 1912  roslaunch usb_cam usb_cam-test.launch 
+ 1913  cd
+ 1914  cs
+ 1915  git clone https://github.com/ros-perception/image_pipeline.git
+ 1916  cm
+ 1917  roslaunch usb_cam usb_cam-test.launch 
+ 1918  cd
+ 1919  rosrun camera_calibration cameracalibrator.py --size 8x6 --square 0.108 image:=/my_camera/image camera:=/my_camera
+ 1920  rosrun camera_calibration cameracalibrator.py --size 8x6 --square 0.108 right:=/my_stereo/right/image_raw left:=/my_stereo/left/image_raw left_camera:=/my_stereo/left right_camera:=/my_stereo/right
+ 1921  rosrun camera_calibration cameracheck.py --size 8x6 monocular:=/forearm image:=image_rect
+ 1922  rosrun camera_calibration cameracheck.py --size 8x6 stereo:=/wide_stereo image:=image_rect
+ 1923  roslaunch usb_cam usb_cam-test.launch 
+ 1924  cheese
+ 1925  roslaunch usb_cam usb_cam-test.launch 
+ 1926  rosrun usb_cam usb_cam_node
+ 1927  ls
+ 1928  cs
+ 1929  ls
+ 1930  cd usb_cam
+ 1931  ls
+ 1932  cd launch/
+ 1933  ls
+ 1934  sudo nano usb_cam-test.launch 
+ 1935  ls
+ 1936  ls -al
+ 1937  roslaunch usb_cam usb_cam-test.launch 
+ 1938  rviz
+ 1939  rqt
+ 1940  rqt_graph
+ 1941  rviz
+ 1942  sudo nautilus
+ 1943  cs
+ 1944  ls
+ 1945  cd hello_world/
+ 1946  ls
+ 1947  cd src
+ 1948  ls
+ 1949  sudo chmod +x image.py
+ 1950  ls
+ 1951  rosrun hello_world image.py 
+ 1952  python
+ 1953  rosrun hello_world image.py 
+ 1954  rosrun image_view video_recorder image:='usb_cam/image_raw' _filename='video.avi' _fps=30
+ 1955  rviz
+ 1956  roscore
+ 1957  ls
+ 1958  cs
+ 1959  ls
+ 1960  cd hello_world/
+ 1961  ls
+ 1962  cd src
+ 1963  ls
+ 1964  cd ..
+ 1965  ls
+ 1966  cd scripts/
+ 1967  ls
+ 1968  sudo move image.py /abc
+ 1969  ls
+ 1970  sudo mv image.py /abc
+ 1971  ls
+ 1972  roscore
+ 1973  ls
+ 1974  cm
+ 1975  roscore
+ 1976  export PYTHONPATH=$PYTHONPATH:/usr/lib/python2.7/dist-packages
+ 1977  roscore
+ 1978  export PYTHONPATH=$PYTHONPATH:/usr/lib/python2.7/dist-packages
+ 1979  rospkg 
+ 1980  echo $PYTHONPATH
+ 1981  ls
+ 1982  cs
+ 1983  ls
+ 1984  cd ..
+ 1985  ls
+ 1986  rm -rf build/ devel/
+ 1987  cm
+ 1988  rospack
+ 1989  rospkg lsit
+ 1990  rospkg list
+ 1991  pip install rospkg
+ 1992  cm
+ 1993  unset PYTHONPATH
+ 1994  cm
+ 1995  ls
+ 1996  cd src
+ 1997  ls
+ 1998  cm
+ 1999  ls
+ 2000  cd ~
+ 2001  ls
+ 2002  mkdir ros_env
+ 2003  ls
+ 2004  cd ~
+ 2005  ls
+ 2006  cd ros_env
+ 2007  ls
+ 2008  echo "# ros_env" >> README.md
+ 2009  git init
+ 2010  git add README.md
+ 2011  git commit -m "first commit"
+ 2012  git branch -M main
+ 2013  git remote add origin https://github.com/mobilio7/ros_env.git
+ 2014  git push -u origin main
+ 2015  git commit -m "second commit"
+ 2016  git branch -M main
+ 2017  git remote add origin https://github.com/mobilio7/ros_env.git
+ 2018  git push -u origin main
+ 2019  ls
+ 2020  git push
+ 2021  git add .
+ 2022  git commit -m "re
+ 2023  git commit -m "re"
+ 2024  git push origin master 
+ 2025  git push origin master
+ 2026  git remote remove
+ 2027  git remote remove origin
+ 2028  git remote add origin  https://github.com/mobilio7/ros_env
+ 2029  git push
+ 2030  git push origin
+ 2031  git push
+ 2032  git remote remove
+ 2033  git remote remove origin
+ 2034  git init
+ 2035  git add .
+ 2036  git git commit -m "third"
+ 2037  git push origin master
+ 2038  git push origin 
+ 2039  git push 
+ 2040  git push ros_env
+ 2041  git push 
+ 2042  ls
+ 2043  git push
+ 2044  git status
+ 2045  git commit -m "abc"
+ 2046  git remote add origin 
+ 2047  git push origin master
+ 2048  git pull
+ 2049  git push
+ 2050  git add .
+ 2051  git commit -m "ass"
+ 2052  git push
+ 2053  ls
+ 2054  git remote add origin https://github.com/mobilio7/ros_env
+ 2055  git push
+ 2056  git init
+ 2057  git add .
+ 2058  touch a.a
+ 2059  git commit -m "adddd"
+ 2060  git push
+ 2061  git add .
+ 2062  git push
+ 2063  git add remote origin
+ 2064  git remote origin 
+ 2065  git remote origin ros_env
+ 2066  history
+ 2067  \
+ 2068  touch history.txt 
+ 2069  ls
+ 2070  history >> history.txt

@@ -1,0 +1,13 @@
+alias eb='nano ~/.bashrc'
+alias sb='source ~/.bashrc'
+alias gs='git status'
+alias gp='git pull'
+alias cw='cd ~/catkin_ws'
+alias cs='cd ~/catkin_ws/src'
+alias cm='cd ~/catkin_ws && catkin_make'
+alias sshm='ssh r1mini@192.168.0.65'
+
+source /opt/ros/melodic/setup.bash
+source ~/catkin_ws/devel/setup.bash
+export ROS_MASTER_URI=http://192.168.0.10:11311
+export ROS_HOSTNAME=192.168.0.65
