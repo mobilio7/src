@@ -1,0 +1,18 @@
+
+
+roscore
+ roslaunch usb_cam usb_cam-test.launch
+ 
+ roslaunch donkey_car blob_chase_demo.launch
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ rqt_image_view /usb_cam/image_raw
+ 
+ sudo apt install ros-melodic-desktop-full
+
+sudo apt-get install v4l-utils
