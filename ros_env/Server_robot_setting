@@ -24,9 +24,8 @@ sudo apt-get install ros-melodic-joy ros-melodic-teleop-twist-joy \
 sudo apt install ros-melodic-cartographer-ros
 
 Fixing problem of GeographicLib: https://github.com/nickcharron/waypoint_nav/issues/18
-git clone https://github.com/mobilio7/GeographicLib-1.34.git
 
-sudo ln -s /usr/share/cmake/geographiclib/FindGeographicLib.cmake /usr/share/cmake-3.10/Modules/  <----------important
+# sudo ln -s /usr/share/cmake/geographiclib/FindGeographicLib.cmake /usr/share/cmake-3.10/Modules/  <----------important
 
 
 
