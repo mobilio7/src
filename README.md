@@ -8,3 +8,7 @@ http://wiki.ros.org/vision_msgs  https://github.com/ros-perception/vision_msgs
 
 
 https://ropiens.tistory.com/67  https://github.com/leggedrobotics/darknet_ros
+
+
+https://github.com/Tossy0423/yolov4-for-darknet_ros   https://github.com/Tossy0423/yolov4-for-darknet_ros.git
+  
