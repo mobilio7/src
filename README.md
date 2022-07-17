@@ -15,3 +15,4 @@ https://github.com/Tossy0423/yolov4-for-darknet_ros   https://github.com/Tossy04
 
 https://github.com/HANDS-FREE/handsfree_ros_imu
 https://github.com/HANDS-FREE/handsfree_ros_imu/blob/master/tutorials/doc.md
+roslaunch handsfree_ros_imu rviz_and_imu.launch imu_type:=a9
