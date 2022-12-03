@@ -23,6 +23,17 @@ sudo apt-get install ros-melodic-joy ros-melodic-teleop-twist-joy \
 
 sudo apt install ros-melodic-cartographer-ros
 
+-----------------------geographilib error--------------------------
+git clone git://git.code.sourceforge.net/p/geographiclib/code ./geographiclib
+cd geographiclib
+mkdir build && cd build 
+cmake .. && make
+sudo make install
+
+
+
+
+
 
 git clone https://github.com/mobilio7/GeographicLib-1.34.git
 
