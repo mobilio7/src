@@ -31,7 +31,13 @@ cmake .. && make
 sudo make install
 
 
+----------------------- gps rtcm error----------------------------
+https://github.com/ros-agriculture/ublox_f9p
+https://github.com/ros-agriculture/ntrip_ros
 
+RTCM Messages
+It may also require this package: https://github.com/tilk/rtcm_msgs
+roboq@roboq-i7:~/catkin_ws/src/ublox_f9p$git clone https://github.com/tilk/rtcm_msgs
 
 
 
