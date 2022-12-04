@@ -40,6 +40,19 @@ It may also require this package: https://github.com/tilk/rtcm_msgs
 roboq@roboq-i7:~/catkin_ws/src/ublox_f9p$git clone https://github.com/tilk/rtcm_msgs
 
 
+-------------------- opencv cv2-----------------------
+sudo apt install python3-opencv
+
+
+---------------------------------------
+
+https://pytorch.org/
+https://pytorch.org/get-started/locally
+
+pip3 install torch torchvision torchaudio --extra-index-url https://download.pytorch.org/whl/cpu  <----- 
+
+----------------xxx--------------------------
+
 
 git clone https://github.com/mobilio7/GeographicLib-1.34.git
 
