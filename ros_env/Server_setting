@@ -86,3 +86,15 @@ https://ko.osdn.net/frs/g_redir.php?m=jaist&f=geographiclib%2Fdistrib%2Farchive%
 http://releases.ubuntu.com/18.04/
 https://ubuntu.com/tutorials/install-ubuntu-desktop#1-overview
 http://wiki.ros.org/melodic/Installation/Ubuntu
+
+
+---------------------------------------------------------------
+
+python3 -m pip install --upgrade pip
+
+sudo apt install python3-rospkg
+
+
+
+sudo apt-get remove python3-apt
+sudo apt-get install python3-apt
