@@ -23,6 +23,15 @@ sudo apt-get install ros-melodic-joy ros-melodic-teleop-twist-joy \
 
 sudo apt install ros-melodic-cartographer-ros
 
+python7 Ubuntu 18.04에서 Python 3.7 설치  --> https://makingrobot.tistory.com/76
+
+alias python3=/usr/bin/python3.7  ---> .bashrc
+
+python3 -m pip install pip  ---> pip를 쓰지 말라
+
+
+
+
 -----------------------geographilib error--------------------------
 git clone git://git.code.sourceforge.net/p/geographiclib/code ./geographiclib
 cd geographiclib
