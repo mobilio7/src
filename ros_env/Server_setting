@@ -22,10 +22,12 @@ sudo apt-get install ros-melodic-joy ros-melodic-teleop-twist-joy \
 
 
 sudo apt install ros-melodic-cartographer-ros
+sudo apt install python-pip
+sudo apt install python3-pip
 
-python7 Ubuntu 18.04에서 Python 3.7 설치  --> https://makingrobot.tistory.com/76
+python7 Ubuntu 18.04에서 Python 3.8 설치  =
 
-alias python3=/usr/bin/python3.7  ---> .bashrc
+alias python3=/usr/bin/python3.8  ---> .bashrc
 
 python3 -m pip install pip  ---> pip를 쓰지 말라
 
