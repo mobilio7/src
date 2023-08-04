@@ -31,8 +31,8 @@ alias python3=/usr/bin/python3.8  ---> .bashrc
 
 python3 -m pip install pip  ---> pip를 쓰지 말라
 
-
-
+python3 -m pip install opencv-pytho
+pip install rospkg
 
 -----------------------geographilib error--------------------------
 git clone git://git.code.sourceforge.net/p/geographiclib/code ./geographiclib
