@@ -6,7 +6,8 @@ https://raw.githubusercontent.com/ROBOTIS-GIT/robotis_tools/master/install_ros_m
 
 $ sudo apt update
 $ sudo apt upgrade
-$ wget https://github.com/mobilio7/src/blob/main/install_ros_melodic.sh
+$ wget https://raw.githubusercontent.com/ROBOTIS-GIT/robotis_tools/master/install_ros_melodic.sh
+-->  https://github.com/mobilio7/src/blob/main/install_ros_melodic.sh
 $ chmod 755 ./install_ros_melodic.sh 
 $ bash ./install_ros_melodic.sh
 
