@@ -45,7 +45,7 @@ https://code.visualstudio.com/ -->vscode
 
 
 https://github.com/mikel-brostrom/yolo_tracking
-
+python3 -m pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cpu
 
 ------------------------------------------------------------------------------------
 $ wget https://raw.githubusercontent.com/ROBOTIS-GIT/robotis_tools/master/install_ros_melodic.sh
