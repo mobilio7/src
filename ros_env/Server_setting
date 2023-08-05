@@ -40,11 +40,12 @@ python3 -m pip install mmcv
 https://code.visualstudio.com/ -->vscode 
 
 
-
 -------------------------------------------------------------
-
+############yolov8#######################
 
 https://github.com/mikel-brostrom/yolo_tracking
+
+python3 -m pip install --no-cache "ultralytics @ git+https://github.com/mikel-brostrom/ultralytics.git"
 python3 -m pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cpu
 
 ------------------------------------------------------------------------------------
