@@ -25,13 +25,15 @@ sudo apt install ros-melodic-cartographer-ros
 sudo apt install python-pip
 sudo apt install python3-pip
 
-python7 Ubuntu 18.04에서 Python 3.8 설치  =
+python7 Ubuntu 18.04에서 Python 3.8 설치  = https://jjeongil.tistory.com/1806
 
-alias python3=/usr/bin/python3.8  ---> .bashrc
+# export alias python3='usr/bin/python3.8' >> .bashrc  ---> .bashrc
+export alias python3='usr/bin/python3.8'
 
 python3 -m pip install pip  ---> pip를 쓰지 말라
 
-python3 -m pip install opencv-pytho
+python3 -m pip install opencv-python
+python3 -m pip install rospkg
 pip install rospkg
 
 -----------------------geographilib error--------------------------
