@@ -35,6 +35,11 @@ python3 -m pip install pip  ---> pip를 쓰지 말라
 python3 -m pip install opencv-python
 python3 -m pip install rospkg
 python3 -m pip install ultralytics
+python3 -m pip torch torchvision
+python3 -m pip install mmcv
+https://code.visualstudio.com/ -->vscode 
+
+
 
 -------------------------------------------------------------
 
