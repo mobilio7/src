@@ -20,11 +20,12 @@ sudo apt-get install ros-melodic-joy ros-melodic-teleop-twist-joy \
   ros-melodic-rosserial-msgs ros-melodic-amcl ros-melodic-map-server \
   ros-melodic-move-base ros-melodic-urdf ros-melodic-xacro \
   ros-melodic-compressed-image-transport ros-melodic-rqt* \
-  ros-melodic-gmapping ros-melodic-navigation ros-melodic-interactive-markers 
+  ros-melodic-gmapping ros-melodic-navigation ros-melodic-interactive-markers \
+  ros-melodic-cartographer-ros
 
 
 
-sudo apt install ros-melodic-cartographer-ros
+--------xXXXXXXXXXXXXXXXx--sudo apt install ros-melodic-cartographer-ros
 sudo apt install python-pip
 sudo apt install python3-pip
 
