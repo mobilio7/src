@@ -50,7 +50,7 @@ python3 -m pip install rospkg
 python3 -m pip install ultralytics --no-warn-script-location
 
 
-
+pip install setuptools==58.2.0
 ------------------------------------------------------------
 
 # CUDA 11.6
@@ -67,7 +67,20 @@ python3 -m pip install examples
 python3 -m pip install mmcv
 https://code.visualstudio.com/ -->vscode 
 -------------------------------------------------------------
-############yolov8#######################
+
+##################################################################################
+git clone https://github.com/MuhammadMoinFaisal/YOLOv8-DeepSORT-Object-Tracking.git
+python3 -m pip install ultralytics==8.0.0
+
+https://github.com/MuhammadMoinFaisal/YOLOv8-DeepSORT-Object-Tracking.git
+python3 -m pip install ultralytics==8.0.0
+
+
+Downloading the DeepSORT Files From The Google Drive
+https://drive.google.com/drive/folders/1kna8eWGrSfzaR6DtNJ8_GchGgPMv3VC8?usp=sharing
+
+
+############yolov8 version check#######################
 
 https://github.com/mikel-brostrom/yolo_tracking
 
