@@ -29,7 +29,9 @@ sudo apt install python3-pip
 
 python7 Ubuntu 18.04에서 Python 3.8 설치  = https://jjeongil.tistory.com/1806
 
-echo \"alias python3='usr/bin/python3.8'\" >> ~/.bashrc
+
+alias python3='usr/bin/python3.8
+-xxxxx----no-----------------echo \"alias python3='usr/bin/python3.8'\" >> ~/.bashrc
 
 python3 -m pip install pip  ---> pip를 쓰지 말라
 python3 -m pip install opencv-python
