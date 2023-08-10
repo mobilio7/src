@@ -26,7 +26,7 @@ sudo apt-get install ros-melodic-joy ros-melodic-teleop-twist-joy \
 
 
 --------xXXXXXXXXXXXXXXXx--sudo apt install ros-melodic-cartographer-ros
-sudo apt install python-pip
+-------XXXXXXXXxsudo apt install python-pip
 sudo apt install python3-pip
 
 python7 Ubuntu 18.04에서 Python 3.8 설치  = https://jjeongil.tistory.com/1806
