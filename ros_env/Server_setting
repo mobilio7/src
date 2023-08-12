@@ -23,14 +23,9 @@ sudo apt-get install ros-melodic-joy ros-melodic-teleop-twist-joy \
   ros-melodic-gmapping ros-melodic-navigation ros-melodic-interactive-markers \
   ros-melodic-cartographer-ros
 
-
-
---------xXXXXXXXXXXXXXXXx--sudo apt install ros-melodic-cartographer-ros
--------XXXXXXXXxsudo apt install python-pip
 sudo apt install python3-pip
 
 python7 Ubuntu 18.04에서 Python 3.8 설치  = https://jjeongil.tistory.com/1806
-
 
 alias python3=/usr/local/bin/python3.8
 alias python=/usr/local/bin/python3.8
@@ -39,35 +34,23 @@ export PYTHONPATH=$PYTHONPATH:/usr/lib/python3.8/dist-packages
 -xxxxx----no-----------------echo \"alias python3='usr/bin/python3.8'\" >> ~/.bashrc
 
 ----------------------python3 -m pip install pip  ---> pip를 쓰지 말라
-python3 -m pip install numpy==1.23.1
-
+python3 -m pip install numpy==1.23.1 
 python3 -m pip install --upgrade pip
-python3 pip install scikit-build
-python3 pip install cmake
-python3 python3 -m pip install opencv-python
-
-
+python3 -m pip install scikit-build
+python3 -m pip install cmake
+python3 -m python3 -m pip install opencv-python
+python3 -m torch torchvision
 
 python3 -m pip install rospkg
 python3 -m pip install ultralytics --no-warn-script-location
 
+pip install setuptools==58.2.0 
 
-pip install setuptools==58.2.0
-------------------------------------------------------------
-
-# CUDA 11.6
-python3 -m pip install torch==1.12.1+cu116 torchvision==0.13.1+cu116 torchaudio==0.12.1 --extra-index-url https://download.pytorch.org/whl/cu116
-# CUDA 11.3
-python3 -m pip install torch==1.12.1+cu113 torchvision==0.13.1+cu113 torchaudio==0.12.1 --extra-index-url https://download.pytorch.org/whl/cu113
-# CUDA 10.2
-python3 -m pip install torch==1.12.1+cu102 torchvision==0.13.1+cu102 torchaudio==0.12.1 --extra-index-url https://download.pytorch.org/whl/cu102
-# CPU only
-python3 -m pip install torch==1.12.1+cpu torchvision==0.13.1+cpu torchaudio==0.12.1 --extra-index-url https://download.pytorch.org/whl/cpu
---------------------------------------------------
 python3 -m pip install boxmot --no-warn-script-location
 python3 -m pip install examples
 python3 -m pip install mmcv
-https://code.visualstudio.com/ -->vscode 
+
+vscode -->https://code.visualstudio.com
 -------------------------------------------------------------
 
 ##################################################################################
