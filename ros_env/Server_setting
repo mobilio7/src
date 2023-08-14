@@ -27,8 +27,8 @@ sudo apt install python3-pip
 
 python7 Ubuntu 18.04에서 Python 3.8 설치  = https://jjeongil.tistory.com/1806
 
-alias python3=/usr/local/bin/python3.8
-alias python=/usr/local/bin/python3.8
+alias python3='/usr/bin/python3.8'
+alias python='/usr/bin/python3.8'
 export PYTHONPATH=$PYTHONPATH:/usr/lib/python3.8/dist-packages
 
 -xxxxx----no-----------------echo \"alias python3='usr/bin/python3.8'\" >> ~/.bashrc
