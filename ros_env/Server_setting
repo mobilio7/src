@@ -34,9 +34,8 @@ export PYTHONPATH=$PYTHONPATH:/usr/lib/python3.8/dist-packages
 -xxxxx----no-----------------echo \"alias python3='usr/bin/python3.8'\" >> ~/.bashrc
 
 ----------------------python3 -m pip install pip  ---> pip를 쓰지 말라
-
-python3 -m pip install numpy==1.19.5
 python3 -m pip install --upgrade pip
+python3 -m pip install numpy==1.19.5
 python3 -m pip install scikit-build
 python3 -m pip install cmake
 python3 -m pip install opencv-python
