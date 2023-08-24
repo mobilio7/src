@@ -1,3 +1,7 @@
-
+.profie 
 cd /home/mobilio/darknet
 ./test_start &
+
+
+.bashrc
+#/home/mobilio/power_check/power_check &
