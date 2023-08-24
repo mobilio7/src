@@ -1,0 +1,3 @@
+
+cd /home/mobilio/darknet
+./test_start &
