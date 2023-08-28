@@ -5,6 +5,7 @@ touch 70-mobilio.rules
 
 KERNEL=="ttyACM*", ATTRS{idVendor}=="2341", ATTRS{idProduct}=="0042", MODE:="07777", SYMLINK+="Arduino"
 KERNEL=="ttyACM*", ATTRS{idVendor}=="1546", ATTRS{idProduct}=="01a9", MODE:="0666", SYMLINK+="GPS"
+KERNEL=="ttyUSB*", ATTRS{idVendor}=="0403", ATTRS{idProduct}=="6015", MODE:="0666", SYMLINK+="Motor"
 
 ################################################
 # When i was faced with this warning in lvm when i run lvm command it works but it took
