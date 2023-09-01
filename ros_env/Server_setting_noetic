@@ -1,0 +1,153 @@
+Server setup
+
+
+https://emanual.robotis.com/docs/en/platform/turtlebot3/quick-start/#pc-setup
+
+https://raw.githubusercontent.com/ROBOTIS-GIT/robotis_tools/master/install_ros_noetic.sh
+
+$ sudo apt update
+$ sudo apt upgrade
+$ wget https://raw.githubusercontent.com/ROBOTIS-GIT/robotis_tools/master/install_ros_noetic.sh
+-->  https://github.com/mobilio7/src/blob/main/install_ros_noetic.sh
+$ chmod 755 ./install_ros_noetic.sh 
+$ bash ./install_ros_noetic.sh
+
+sudo apt-get install ros-noetic-joy ros-noetic-teleop-twist-joy \
+  ros-noetic-teleop-twist-keyboard ros-noetic-laser-proc \
+  ros-noetic-rgbd-launch ros-noetic-depthimage-to-laserscan \
+  ros-noetic-rosserial-arduino ros-noetic-rosserial-python \
+  ros-noetic-rosserial-server ros-noetic-rosserial-client \
+  ros-noetic-rosserial-msgs ros-noetic-amcl ros-noetic-map-server \
+  ros-noetic-move-base ros-noetic-urdf ros-noetic-xacro \
+  ros-noetic-compressed-image-transport ros-noetic-rqt* \
+  ros-noetic-gmapping ros-noetic-navigation ros-noetic-interactive-markers \
+  ros-noetic-cartographer-ros
+
+sudo apt install python3-pip
+
+python7 Ubuntu 18.04에서 Python 3.8 설치  = https://jjeongil.tistory.com/1806
+
+alias python3='/usr/bin/python3.8'
+alias python='/usr/bin/python3.8'
+export PYTHONPATH=$PYTHONPATH:/usr/lib/python3.8/dist-packages
+
+-xxxxx----no-----------------echo \"alias python3='usr/bin/python3.8'\" >> ~/.bashrc
+
+----------------------python3 -m pip install pip  ---> pip를 쓰지 말라
+python3 -m pip install --upgrade pip
+python3 -m pip install numpy==1.19.5
+python3 -m pip install scikit-build
+python3 -m pip install cmake
+python3 -m pip install opencv-python
+python3 -m pip install torch torchvision
+
+python3 -m pip install rospkg
+python3 -m pip install ultralytics --no-warn-script-location
+
+pip install setuptools==58.2.0 
+
+python3 -m pip install boxmot --no-warn-script-location
+python3 -m pip install examples
+python3 -m pip install mmcv
+
+vscode -->https://code.visualstudio.com
+-------------------------------------------------------------
+
+##################################################################################
+git clone https://github.com/MuhammadMoinFaisal/YOLOv8-DeepSORT-Object-Tracking.git
+python3 -m pip install ultralytics==8.0.0
+
+https://github.com/MuhammadMoinFaisal/YOLOv8-DeepSORT-Object-Tracking.git
+python3 -m pip install ultralytics==8.0.0
+
+
+Downloading the DeepSORT Files From The Google Drive
+https://drive.google.com/drive/folders/1kna8eWGrSfzaR6DtNJ8_GchGgPMv3VC8?usp=sharing
+
+
+############yolov8 version check#######################
+
+https://github.com/mikel-brostrom/yolo_tracking
+
+python3 -m pip install ultralytics==?????
+
+XXXXXXXXXXXXxpython3 -m pip install --no-cache "ultralytics @ git+https://github.com/mikel-brostrom/ultralytics.git"
+XXXXXXXXXXXXXXxpython3 -m pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cpu
+
+------------------------------------------------------------------------------------
+$ wget https://raw.githubusercontent.com/ROBOTIS-GIT/robotis_tools/master/install_ros_noetic.sh
+-----------------------geographilib error--------------------------
+git clone git://git.code.sourceforge.net/p/geographiclib/code ./geographiclib
+cd geographiclib
+mkdir build && cd build 
+cmake .. && make
+sudo make install
+
+
+----------------------- gps rtcm error----------------------------
+https://github.com/ros-agriculture/ublox_f9p
+https://github.com/ros-agriculture/ntrip_ros
+
+RTCM Messages
+It may also require this package: https://github.com/tilk/rtcm_msgs
+roboq@roboq-i7:~/catkin_ws/src/ublox_f9p$git clone https://github.com/tilk/rtcm_msgs
+
+
+-------------------- opencv cv2-----------------------
+sudo apt install python3-opencv
+
+
+---------------------------------------
+
+https://pytorch.org/
+https://pytorch.org/get-started/locally
+
+pip3 install torch torchvision torchaudio --extra-index-url https://download.pytorch.org/whl/cpu  <----- 
+
+----------------xxx--------------------------
+
+
+git clone https://github.com/mobilio7/GeographicLib-1.34.git
+
+sudo ln -s /usr/share/cmake/geographiclib/FindGeographicLib.cmake /usr/share/cmake-3.10/Modules/  <----------important
+
+
+
+===============================================
+
+
+robot setting
+
+https://omorobot.com/docs/omo_r1mini-%ed%8c%a8%ed%82%a4%ec%a7%80-%ec%84%a4%ec%b9%98/
+
+
+1. image dropbox
+https://omorobot.com/docs/r1mini-pro/
+
+
+
+
+
+
+
+
+
+https://ko.osdn.net/frs/g_redir.php?m=jaist&f=geographiclib%2Fdistrib%2Farchive%2FGeographicLib-1.34.zip
+
+
+참조
+http://releases.ubuntu.com/18.04/
+https://ubuntu.com/tutorials/install-ubuntu-desktop#1-overview
+http://wiki.ros.org/noetic/Installation/Ubuntu
+
+
+---------------------------------------------------------------
+
+python3 -m pip install --upgrade pip
+
+sudo apt install python3-rospkg
+
+
+
+sudo apt-get remove python3-apt
+sudo apt-get install python3-apt
