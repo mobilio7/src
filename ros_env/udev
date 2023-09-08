@@ -12,7 +12,7 @@ KERNEL=="ttyUSB*", ATTRS{idVendor}=="0403", ATTRS{idProduct}=="6015", MODE:="066
 # WARNING: Device /dev/dm-20 not initialized in udev database even after waiting 10000000 microseconds.
 # It look my problem is solved by reloading udev rules without reboot with this command:
 
-sudo udevadm control --reload-rules && udevadm trigger
+sudo udevadm control --reload-rules && sudo udevadm trigger
 
 ############### result #################
 
